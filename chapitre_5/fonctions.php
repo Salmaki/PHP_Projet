@@ -4,10 +4,14 @@ function saluer() {
 }
 saluer();
 
+echo "<br>";
+
 function addition($a, $b) {
     return $a + $b;
 }
 echo "Somme : " . addition(5, 10);
+
+echo "<br>";
 
 function bienvenue($nom = "visiteur") {
     echo "Bienvenue " . $nom;
